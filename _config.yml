@@ -1,0 +1,6 @@
+title: "Mi Blog Elegante"
+description: "Un blog minimalista y oscuro con tarjetas"
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: minima
