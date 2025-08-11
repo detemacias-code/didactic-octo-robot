@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "balatro"
+title: "Mi Primer Post"
 date: 2025-08-11
 image: /images/ejemplo.jpg
 ---
