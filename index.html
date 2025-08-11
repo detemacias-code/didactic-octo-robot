@@ -1,0 +1,15 @@
+---
+layout: default
+title: Inicio
+---
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% for post in sorted_posts %}
+<div class="post-card">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    <div class="post-content">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="post-date">{{ post.date | date: "%d %B %Y" }}</p>
+        <p>{{ post.excerpt }}</p>
+    </div>
+</div>
+{% endfor %}
